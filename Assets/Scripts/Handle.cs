@@ -5,8 +5,26 @@ public class Handle : MonoBehaviour
 {
     public event Action IsHitObstacle;
     public event Action IsGrounded;
-        
+    public float Height;
+    public float LocalHeight;
+
+
     private bool _isHitted;
+
+
+    private void Start()
+    {
+        Height = transform.position.y;
+
+        LocalHeight = transform.localPosition.y;
+    }
+
+    private void Update()
+    {
+        Height = transform.position.y;
+
+        LocalHeight = transform.localPosition.y;
+    }
 
     private void OnTriggerEnter(Collider other)
     {

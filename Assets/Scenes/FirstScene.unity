@@ -947,7 +947,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh186588
+  m_Name: pb_Mesh22728
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1242,9 +1242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6948a36a6cdfbb438dc2f888a75e00d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _layer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!1 &147385616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,8 +1329,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4de32bfc6f88dfb4288e2814cfff96bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _handle: {fileID: 1363425079}
-  _collider: {fileID: 181337935}
 --- !u!65 &181337935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1407,9 +1402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6948a36a6cdfbb438dc2f888a75e00d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _layer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!65 &187854176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1500,7 +1492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14291d9672d0dd444be05f4c6fcfeaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _generator: {fileID: 1397518769}
 --- !u!4 &190762328
 Transform:
   m_ObjectHideFlags: 0
@@ -2674,7 +2665,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh186670
+  m_Name: pb_Mesh22810
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4833,7 +4824,6 @@ MonoBehaviour:
   _maxBladePieces: 10
   _startBladePieces: 7
   _mover: {fileID: 1363425083}
-  ConnectedBladesCount: 0
 --- !u!1 &585309149
 GameObject:
   m_ObjectHideFlags: 0
@@ -7541,14 +7531,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.12185667, y: -0.3553021, z: 0.046776395, w: 0.92559355}
-  m_LocalPosition: {x: 74.5, y: 15.7, z: -22}
+  m_LocalRotation: {x: 0.11829687, y: -0.41900265, z: 0.05516273, w: 0.8985542}
+  m_LocalPosition: {x: 70.2, y: 13.98, z: -17.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1033178925}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 15, y: -42, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: -50, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7562,9 +7552,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 1363425078}
-  _smoothTime: 0.5
-  _heightToZoomOut: 20
-  _sword: {fileID: 569556570}
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18794,7 +18781,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh186394
+  m_Name: pb_Mesh22538
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19001,8 +18988,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf6411aa663ab149a5159dde6f50e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rigidBody: {fileID: 1363425082}
-  _remover: {fileID: 181337934}
+  Height: 0
+  LocalHeight: 0
 --- !u!54 &1363425082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19033,8 +19020,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 1363425082}
   _force: 55
-  _handle: {fileID: 1363425078}
-  _blades: {fileID: 499740866}
   _maxVelocity: 17
   _frictionMaterial: {fileID: 13400000, guid: fe147281f6c79c7499dff871647796bc, type: 2}
 --- !u!1 &1378757648

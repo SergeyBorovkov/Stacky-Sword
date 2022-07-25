@@ -49,7 +49,7 @@ public class BladePiece : MonoBehaviour
     
     public void StartChangeScale()
     {
-        StartCoroutine(nameof(ChangeScale));
+        StartCoroutine(ChangeScale());
     }
 
     public void DestroyConnectedBlade()
