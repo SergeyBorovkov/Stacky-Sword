@@ -11,7 +11,7 @@ public class BladePiece : MonoBehaviour
     private Vector3 _randomDirection;
     private int _randomMin = -10;
     private int _randomMax = 10;    
-    private float _scaleDecreaseFactor = 0.3f;
+    private float _scaleDecreaseFactor = 0.6f;
     private float _scaleIncreaseFactor = 1.35f;
     private float _destroyPause = 0.5f;
 
