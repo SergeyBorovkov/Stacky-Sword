@@ -1,2 +1,2 @@
-Визуальный прототип гиперказуальной игры Staky Knife
+Unity prototype of Staky Knife hypercasual game
 https://www.youtube.com/watch?v=_V618qRcYS4
